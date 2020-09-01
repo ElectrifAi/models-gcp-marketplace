@@ -3,7 +3,7 @@ set -x
 
 if [[ $# -lt 4 ]] ; then
     echo "Please supply params: DOCKER_REPOSITORY TAG_MINOR TAG_PATCH MARKETPLACE_TOOLS_TAG"
-    echo "e.g. gcr.io/electrifai-public/models 1.0 1.0.0 0.10.6"
+    echo "e.g. gcr.io/electrifai-public/models 1.0 1.0.2 0.10.6"
     exit 1
 fi
 
